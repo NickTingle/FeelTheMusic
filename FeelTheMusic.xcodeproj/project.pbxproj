@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D853871E1BF17A4B0020F44B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853871D1BF17A4B0020F44B /* AppDelegate.swift */; };
+		D85387201BF17A4B0020F44B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853871F1BF17A4B0020F44B /* ViewController.swift */; };
+		D85387231BF17A4B0020F44B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85387211BF17A4B0020F44B /* Main.storyboard */; };
+		D85387261BF17A4B0020F44B /* FeelTheMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D85387241BF17A4B0020F44B /* FeelTheMusic.xcdatamodeld */; };
+		D85387281BF17A4B0020F44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85387271BF17A4B0020F44B /* Assets.xcassets */; };
+		D853872B1BF17A4B0020F44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85387291BF17A4B0020F44B /* LaunchScreen.storyboard */; };
+		D85387361BF17A4C0020F44B /* FeelTheMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85387351BF17A4C0020F44B /* FeelTheMusicTests.swift */; };
+		D85387411BF17A4C0020F44B /* FeelTheMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85387401BF17A4C0020F44B /* FeelTheMusicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D85387321BF17A4C0020F44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85387121BF17A4B0020F44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85387191BF17A4B0020F44B;
+			remoteInfo = FeelTheMusic;
+		};
+		D853873D1BF17A4C0020F44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85387121BF17A4B0020F44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85387191BF17A4B0020F44B;
+			remoteInfo = FeelTheMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D853871A1BF17A4B0020F44B /* FeelTheMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelTheMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D853871D1BF17A4B0020F44B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D853871F1BF17A4B0020F44B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D85387221BF17A4B0020F44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85387251BF17A4B0020F44B /* FeelTheMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeelTheMusic.xcdatamodel; sourceTree = "<group>"; };
+		D85387271BF17A4B0020F44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D853872A1BF17A4B0020F44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D853872C1BF17A4B0020F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85387311BF17A4C0020F44B /* FeelTheMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelTheMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85387351BF17A4C0020F44B /* FeelTheMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelTheMusicTests.swift; sourceTree = "<group>"; };
+		D85387371BF17A4C0020F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D853873C1BF17A4C0020F44B /* FeelTheMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelTheMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85387401BF17A4C0020F44B /* FeelTheMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelTheMusicUITests.swift; sourceTree = "<group>"; };
+		D85387421BF17A4C0020F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85387171BF17A4B0020F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853872E1BF17A4C0020F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85387391BF17A4C0020F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85387111BF17A4B0020F44B = {
+			isa = PBXGroup;
+			children = (
+				D853871C1BF17A4B0020F44B /* FeelTheMusic */,
+				D85387341BF17A4C0020F44B /* FeelTheMusicTests */,
+				D853873F1BF17A4C0020F44B /* FeelTheMusicUITests */,
+				D853871B1BF17A4B0020F44B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D853871B1BF17A4B0020F44B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D853871A1BF17A4B0020F44B /* FeelTheMusic.app */,
+				D85387311BF17A4C0020F44B /* FeelTheMusicTests.xctest */,
+				D853873C1BF17A4C0020F44B /* FeelTheMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D853871C1BF17A4B0020F44B /* FeelTheMusic */ = {
+			isa = PBXGroup;
+			children = (
+				D853871D1BF17A4B0020F44B /* AppDelegate.swift */,
+				D853871F1BF17A4B0020F44B /* ViewController.swift */,
+				D85387211BF17A4B0020F44B /* Main.storyboard */,
+				D85387271BF17A4B0020F44B /* Assets.xcassets */,
+				D85387291BF17A4B0020F44B /* LaunchScreen.storyboard */,
+				D853872C1BF17A4B0020F44B /* Info.plist */,
+				D85387241BF17A4B0020F44B /* FeelTheMusic.xcdatamodeld */,
+			);
+			path = FeelTheMusic;
+			sourceTree = "<group>";
+		};
+		D85387341BF17A4C0020F44B /* FeelTheMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85387351BF17A4C0020F44B /* FeelTheMusicTests.swift */,
+				D85387371BF17A4C0020F44B /* Info.plist */,
+			);
+			path = FeelTheMusicTests;
+			sourceTree = "<group>";
+		};
+		D853873F1BF17A4C0020F44B /* FeelTheMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D85387401BF17A4C0020F44B /* FeelTheMusicUITests.swift */,
+				D85387421BF17A4C0020F44B /* Info.plist */,
+			);
+			path = FeelTheMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85387191BF17A4B0020F44B /* FeelTheMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85387451BF17A4C0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusic" */;
+			buildPhases = (
+				D85387161BF17A4B0020F44B /* Sources */,
+				D85387171BF17A4B0020F44B /* Frameworks */,
+				D85387181BF17A4B0020F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeelTheMusic;
+			productName = FeelTheMusic;
+			productReference = D853871A1BF17A4B0020F44B /* FeelTheMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85387301BF17A4C0020F44B /* FeelTheMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85387481BF17A4C0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusicTests" */;
+			buildPhases = (
+				D853872D1BF17A4C0020F44B /* Sources */,
+				D853872E1BF17A4C0020F44B /* Frameworks */,
+				D853872F1BF17A4C0020F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85387331BF17A4C0020F44B /* PBXTargetDependency */,
+			);
+			name = FeelTheMusicTests;
+			productName = FeelTheMusicTests;
+			productReference = D85387311BF17A4C0020F44B /* FeelTheMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D853873B1BF17A4C0020F44B /* FeelTheMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D853874B1BF17A4C0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusicUITests" */;
+			buildPhases = (
+				D85387381BF17A4C0020F44B /* Sources */,
+				D85387391BF17A4C0020F44B /* Frameworks */,
+				D853873A1BF17A4C0020F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D853873E1BF17A4C0020F44B /* PBXTargetDependency */,
+			);
+			name = FeelTheMusicUITests;
+			productName = FeelTheMusicUITests;
+			productReference = D853873C1BF17A4C0020F44B /* FeelTheMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85387121BF17A4B0020F44B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FeelTheMusic;
+				TargetAttributes = {
+					D85387191BF17A4B0020F44B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8QQZBS8966;
+					};
+					D85387301BF17A4C0020F44B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8QQZBS8966;
+						TestTargetID = D85387191BF17A4B0020F44B;
+					};
+					D853873B1BF17A4C0020F44B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8QQZBS8966;
+						TestTargetID = D85387191BF17A4B0020F44B;
+					};
+				};
+			};
+			buildConfigurationList = D85387151BF17A4B0020F44B /* Build configuration list for PBXProject "FeelTheMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85387111BF17A4B0020F44B;
+			productRefGroup = D853871B1BF17A4B0020F44B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85387191BF17A4B0020F44B /* FeelTheMusic */,
+				D85387301BF17A4C0020F44B /* FeelTheMusicTests */,
+				D853873B1BF17A4C0020F44B /* FeelTheMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85387181BF17A4B0020F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D853872B1BF17A4B0020F44B /* LaunchScreen.storyboard in Resources */,
+				D85387281BF17A4B0020F44B /* Assets.xcassets in Resources */,
+				D85387231BF17A4B0020F44B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853872F1BF17A4C0020F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853873A1BF17A4C0020F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85387161BF17A4B0020F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85387201BF17A4B0020F44B /* ViewController.swift in Sources */,
+				D853871E1BF17A4B0020F44B /* AppDelegate.swift in Sources */,
+				D85387261BF17A4B0020F44B /* FeelTheMusic.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853872D1BF17A4C0020F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85387361BF17A4C0020F44B /* FeelTheMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85387381BF17A4C0020F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85387411BF17A4C0020F44B /* FeelTheMusicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85387331BF17A4C0020F44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85387191BF17A4B0020F44B /* FeelTheMusic */;
+			targetProxy = D85387321BF17A4C0020F44B /* PBXContainerItemProxy */;
+		};
+		D853873E1BF17A4C0020F44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85387191BF17A4B0020F44B /* FeelTheMusic */;
+			targetProxy = D853873D1BF17A4C0020F44B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D85387211BF17A4B0020F44B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85387221BF17A4B0020F44B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D85387291BF17A4B0020F44B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D853872A1BF17A4B0020F44B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85387431BF17A4C0020F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D85387441BF17A4C0020F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85387461BF17A4C0020F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeelTheMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D85387471BF17A4C0020F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FeelTheMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D85387491BF17A4C0020F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FeelTheMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeelTheMusic.app/FeelTheMusic";
+			};
+			name = Debug;
+		};
+		D853874A1BF17A4C0020F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FeelTheMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeelTheMusic.app/FeelTheMusic";
+			};
+			name = Release;
+		};
+		D853874C1BF17A4C0020F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FeelTheMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeelTheMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D853874D1BF17A4C0020F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FeelTheMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FeelTheMusic;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85387151BF17A4B0020F44B /* Build configuration list for PBXProject "FeelTheMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85387431BF17A4C0020F44B /* Debug */,
+				D85387441BF17A4C0020F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85387451BF17A4C0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85387461BF17A4C0020F44B /* Debug */,
+				D85387471BF17A4C0020F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D85387481BF17A4C0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85387491BF17A4C0020F44B /* Debug */,
+				D853874A1BF17A4C0020F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D853874B1BF17A4C0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D853874C1BF17A4C0020F44B /* Debug */,
+				D853874D1BF17A4C0020F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D85387241BF17A4B0020F44B /* FeelTheMusic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D85387251BF17A4B0020F44B /* FeelTheMusic.xcdatamodel */,
+			);
+			currentVersion = D85387251BF17A4B0020F44B /* FeelTheMusic.xcdatamodel */;
+			path = FeelTheMusic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D85387121BF17A4B0020F44B /* Project object */;
+}
