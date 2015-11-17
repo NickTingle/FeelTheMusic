@@ -15,6 +15,14 @@
 		D853872B1BF17A4B0020F44B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85387291BF17A4B0020F44B /* LaunchScreen.storyboard */; };
 		D85387361BF17A4C0020F44B /* FeelTheMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85387351BF17A4C0020F44B /* FeelTheMusicTests.swift */; };
 		D85387411BF17A4C0020F44B /* FeelTheMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85387401BF17A4C0020F44B /* FeelTheMusicUITests.swift */; };
+		D85387571BF17AED0020F44B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85387561BF17AED0020F44B /* InterfaceController.swift */; };
+		D85387591BF17AED0020F44B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85387581BF17AED0020F44B /* NotificationController.swift */; };
+		D853875B1BF17AED0020F44B /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D853875A1BF17AED0020F44B /* GlanceController.swift */; };
+		D853875D1BF17AED0020F44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D853875C1BF17AED0020F44B /* Assets.xcassets */; };
+		D85387621BF17AED0020F44B /* FeelTheMusic WatchKit 1 App.app in Resources */ = {isa = PBXBuildFile; fileRef = D85387611BF17AED0020F44B /* FeelTheMusic WatchKit 1 App.app */; };
+		D85387681BF17AED0020F44B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85387661BF17AED0020F44B /* Interface.storyboard */; };
+		D853876A1BF17AED0020F44B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85387691BF17AED0020F44B /* Assets.xcassets */; };
+		D853876E1BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D85387521BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +40,35 @@
 			remoteGlobalIDString = D85387191BF17A4B0020F44B;
 			remoteInfo = FeelTheMusic;
 		};
+		D85387631BF17AED0020F44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85387121BF17A4B0020F44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85387601BF17AED0020F44B;
+			remoteInfo = "FeelTheMusic WatchKit 1 App";
+		};
+		D853876C1BF17AED0020F44B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85387121BF17A4B0020F44B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85387511BF17AED0020F44B;
+			remoteInfo = "FeelTheMusic WatchKit 1 Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D85387751BF17AED0020F44B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D853876E1BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D853871A1BF17A4B0020F44B /* FeelTheMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeelTheMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +85,17 @@
 		D853873C1BF17A4C0020F44B /* FeelTheMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeelTheMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85387401BF17A4C0020F44B /* FeelTheMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelTheMusicUITests.swift; sourceTree = "<group>"; };
 		D85387421BF17A4C0020F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85387521BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FeelTheMusic WatchKit 1 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85387551BF17AED0020F44B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D85387561BF17AED0020F44B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D85387581BF17AED0020F44B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		D853875A1BF17AED0020F44B /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		D853875C1BF17AED0020F44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D853875E1BF17AED0020F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85387611BF17AED0020F44B /* FeelTheMusic WatchKit 1 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeelTheMusic WatchKit 1 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85387671BF17AED0020F44B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D85387691BF17AED0020F44B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D853876B1BF17AED0020F44B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +120,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D853874F1BF17AED0020F44B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +136,8 @@
 				D853871C1BF17A4B0020F44B /* FeelTheMusic */,
 				D85387341BF17A4C0020F44B /* FeelTheMusicTests */,
 				D853873F1BF17A4C0020F44B /* FeelTheMusicUITests */,
+				D85387531BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension */,
+				D85387651BF17AED0020F44B /* FeelTheMusic WatchKit 1 App */,
 				D853871B1BF17A4B0020F44B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +148,8 @@
 				D853871A1BF17A4B0020F44B /* FeelTheMusic.app */,
 				D85387311BF17A4C0020F44B /* FeelTheMusicTests.xctest */,
 				D853873C1BF17A4C0020F44B /* FeelTheMusicUITests.xctest */,
+				D85387521BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension.appex */,
+				D85387611BF17AED0020F44B /* FeelTheMusic WatchKit 1 App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +186,37 @@
 			path = FeelTheMusicUITests;
 			sourceTree = "<group>";
 		};
+		D85387531BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D85387561BF17AED0020F44B /* InterfaceController.swift */,
+				D85387581BF17AED0020F44B /* NotificationController.swift */,
+				D853875A1BF17AED0020F44B /* GlanceController.swift */,
+				D853875C1BF17AED0020F44B /* Assets.xcassets */,
+				D853875E1BF17AED0020F44B /* Info.plist */,
+				D85387541BF17AED0020F44B /* Supporting Files */,
+			);
+			path = "FeelTheMusic WatchKit 1 Extension";
+			sourceTree = "<group>";
+		};
+		D85387541BF17AED0020F44B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D85387551BF17AED0020F44B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D85387651BF17AED0020F44B /* FeelTheMusic WatchKit 1 App */ = {
+			isa = PBXGroup;
+			children = (
+				D85387661BF17AED0020F44B /* Interface.storyboard */,
+				D85387691BF17AED0020F44B /* Assets.xcassets */,
+				D853876B1BF17AED0020F44B /* Info.plist */,
+			);
+			path = "FeelTheMusic WatchKit 1 App";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +227,12 @@
 				D85387161BF17A4B0020F44B /* Sources */,
 				D85387171BF17A4B0020F44B /* Frameworks */,
 				D85387181BF17A4B0020F44B /* Resources */,
+				D85387751BF17AED0020F44B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D853876D1BF17AED0020F44B /* PBXTargetDependency */,
 			);
 			name = FeelTheMusic;
 			productName = FeelTheMusic;
@@ -184,6 +275,39 @@
 			productReference = D853873C1BF17A4C0020F44B /* FeelTheMusicUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D85387511BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85387721BF17AED0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusic WatchKit 1 Extension" */;
+			buildPhases = (
+				D853874E1BF17AED0020F44B /* Sources */,
+				D853874F1BF17AED0020F44B /* Frameworks */,
+				D85387501BF17AED0020F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85387641BF17AED0020F44B /* PBXTargetDependency */,
+			);
+			name = "FeelTheMusic WatchKit 1 Extension";
+			productName = "FeelTheMusic WatchKit 1 Extension";
+			productReference = D85387521BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D85387601BF17AED0020F44B /* FeelTheMusic WatchKit 1 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D853876F1BF17AED0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusic WatchKit 1 App" */;
+			buildPhases = (
+				D853875F1BF17AED0020F44B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FeelTheMusic WatchKit 1 App";
+			productName = "FeelTheMusic WatchKit 1 App";
+			productReference = D85387611BF17AED0020F44B /* FeelTheMusic WatchKit 1 App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,6 +332,14 @@
 						DevelopmentTeam = 8QQZBS8966;
 						TestTargetID = D85387191BF17A4B0020F44B;
 					};
+					D85387511BF17AED0020F44B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8QQZBS8966;
+					};
+					D85387601BF17AED0020F44B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8QQZBS8966;
+					};
 				};
 			};
 			buildConfigurationList = D85387151BF17A4B0020F44B /* Build configuration list for PBXProject "FeelTheMusic" */;
@@ -226,6 +358,8 @@
 				D85387191BF17A4B0020F44B /* FeelTheMusic */,
 				D85387301BF17A4C0020F44B /* FeelTheMusicTests */,
 				D853873B1BF17A4C0020F44B /* FeelTheMusicUITests */,
+				D85387511BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension */,
+				D85387601BF17AED0020F44B /* FeelTheMusic WatchKit 1 App */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +386,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85387501BF17AED0020F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D853875D1BF17AED0020F44B /* Assets.xcassets in Resources */,
+				D85387621BF17AED0020F44B /* FeelTheMusic WatchKit 1 App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D853875F1BF17AED0020F44B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D853876A1BF17AED0020F44B /* Assets.xcassets in Resources */,
+				D85387681BF17AED0020F44B /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +436,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D853874E1BF17AED0020F44B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85387591BF17AED0020F44B /* NotificationController.swift in Sources */,
+				D85387571BF17AED0020F44B /* InterfaceController.swift in Sources */,
+				D853875B1BF17AED0020F44B /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,6 +458,16 @@
 			isa = PBXTargetDependency;
 			target = D85387191BF17A4B0020F44B /* FeelTheMusic */;
 			targetProxy = D853873D1BF17A4C0020F44B /* PBXContainerItemProxy */;
+		};
+		D85387641BF17AED0020F44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85387601BF17AED0020F44B /* FeelTheMusic WatchKit 1 App */;
+			targetProxy = D85387631BF17AED0020F44B /* PBXContainerItemProxy */;
+		};
+		D853876D1BF17AED0020F44B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85387511BF17AED0020F44B /* FeelTheMusic WatchKit 1 Extension */;
+			targetProxy = D853876C1BF17AED0020F44B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -314,6 +486,14 @@
 				D853872A1BF17A4B0020F44B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D85387661BF17AED0020F44B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85387671BF17AED0020F44B /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = FeelTheMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic;
@@ -417,6 +598,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = FeelTheMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic;
@@ -472,6 +654,58 @@
 			};
 			name = Release;
 		};
+		D85387701BF17AED0020F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FeelTheMusic_WatchKit_1_Extension;
+				INFOPLIST_FILE = "FeelTheMusic WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D85387711BF17AED0020F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = FeelTheMusic_WatchKit_1_Extension;
+				INFOPLIST_FILE = "FeelTheMusic WatchKit 1 App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D85387731BF17AED0020F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FeelTheMusic WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D85387741BF17AED0020F44B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FeelTheMusic WatchKit 1 Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FTM.FeelTheMusic.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +739,22 @@
 			buildConfigurations = (
 				D853874C1BF17A4C0020F44B /* Debug */,
 				D853874D1BF17A4C0020F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D853876F1BF17AED0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusic WatchKit 1 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85387701BF17AED0020F44B /* Debug */,
+				D85387711BF17AED0020F44B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D85387721BF17AED0020F44B /* Build configuration list for PBXNativeTarget "FeelTheMusic WatchKit 1 Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85387731BF17AED0020F44B /* Debug */,
+				D85387741BF17AED0020F44B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
